@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "24653176157",
+    "firebase_url": "https://taka-lagbe-ee142-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "taka-lagbe-ee142",
+    "storage_bucket": "taka-lagbe-ee142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24653176157:android:f30391cad11b716fb29cb4",
+        "android_client_info": {
+          "package_name": "com.taka.lagbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24653176157-ae790dthc9qlfh2v3i7u1l5or1ndl40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpnjTDxFYz3rMogG5KxsIRt4erXGsnOZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24653176157-ae790dthc9qlfh2v3i7u1l5or1ndl40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24653176157:android:59e79168441e4608b29cb4",
+        "android_client_info": {
+          "package_name": "com.taka.lagbe.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24653176157-ae790dthc9qlfh2v3i7u1l5or1ndl40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpnjTDxFYz3rMogG5KxsIRt4erXGsnOZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24653176157-ae790dthc9qlfh2v3i7u1l5or1ndl40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

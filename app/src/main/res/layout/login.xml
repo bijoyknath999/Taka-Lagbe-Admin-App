@@ -1,0 +1,77 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/login_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:src="@drawable/img"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:text="Login to continue"
+			android:textSize="18sp"
+			android:textColor="#616161" />
+		<EditText
+			android:id="@+id/login_email"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginRight="30dp"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:background="#EEEEEE"
+			android:gravity="center_vertical"
+			android:textSize="16sp"
+			android:textColor="#000000"
+			android:hint="Enter email..."
+			android:textColorHint="#9E9E9E"
+			android:singleLine="true"
+			android:imeOptions="actionNext" />
+		<EditText
+			android:id="@+id/login_password"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:background="#EEEEEE"
+			android:gravity="center_vertical"
+			android:textSize="16sp"
+			android:textColor="#000000"
+			android:hint="Enter password..."
+			android:textColorHint="#9E9E9E"
+			android:singleLine="true"
+			android:imeOptions="actionDone" />
+		<Button
+			android:id="@+id/login_btn"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:background="#FFE300"
+			android:text="LOGIN"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+
+</LinearLayout>
